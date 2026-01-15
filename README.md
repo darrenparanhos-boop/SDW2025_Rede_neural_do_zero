@@ -140,21 +140,20 @@ Projeto desenvolvido como estudo prático de **Redes Neurais com PyTorch**.
 
 ---
 
-## 📝 Conclusão
+---
 
-Este estudo demonstrou, de forma prática e didática, como construir uma **rede neural totalmente conectada (MLP)** utilizando **PyTorch** para resolver o problema clássico de classificação de dígitos manuscritos com o dataset **MNIST**.  
+📝 Conclusão
+Este estudo demonstrou, de forma prática e estruturada, como construir uma rede neural totalmente conectada (MLP) utilizando PyTorch para resolver o desafio clássico de classificação de dígitos manuscritos com o dataset MNIST.
+A implementação percorreu todas as etapas fundamentais do ciclo de aprendizado de máquina:
+- Pré-processamento dos dados, garantindo que as imagens fossem convertidas em tensores adequados para o modelo.
+- Definição da arquitetura, com camadas lineares e funções de ativação que refletem os princípios básicos das redes neurais.
+- Treinamento supervisionado, utilizando gradiente descendente estocástico para otimização dos parâmetros.
+- Validação e avaliação, assegurando que o modelo fosse testado em dados não vistos e medindo sua capacidade de generalização.
+Os resultados obtidos confirmam que, mesmo com uma arquitetura simples, é possível alcançar alta precisão (92–95%), evidenciando o potencial das redes neurais para tarefas de classificação.
+Mais do que apenas treinar um modelo, este estudo reforça conceitos essenciais de aprendizado profundo, servindo como base sólida para avanços futuros, tais como:
+- Implementação de redes convolucionais (CNNs) para maior desempenho em visão computacional.
+- Exploração de diferentes otimizadores e hiperparâmetros para melhorar a eficiência do treinamento.
+- Aplicações em datasets mais complexos e variados, ampliando o escopo e a robustez do modelo.
+Em síntese, este projeto cumpre seu papel como um primeiro passo consistente na jornada de aprendizado em redes neurais, oferecendo uma visão clara e prática de como modelos de machine learning podem ser construídos, treinados e aplicados em problemas reais.
+Ele não apenas consolida os fundamentos teóricos, mas também abre caminho para experimentações mais avançadas e aplicações em cenários de maior complexidade.
 
-A implementação abordou todas as etapas essenciais:
-- **Pré-processamento dos dados** com conversão para tensores.  
-- **Definição da arquitetura** da rede neural com camadas lineares e funções de ativação.  
-- **Treinamento supervisionado** com cálculo de perda e atualização de pesos via gradiente descendente.  
-- **Validação e avaliação** da precisão do modelo em dados nunca vistos.  
-
-Os resultados obtidos confirmam que mesmo uma arquitetura simples é capaz de alcançar **alta precisão (92–95%)**, evidenciando o poder das redes neurais para tarefas de classificação.  
-
-Mais do que apenas treinar um modelo, este estudo reforça conceitos fundamentais de **aprendizado profundo**, servindo como base para avanços futuros, como:
-- Redes convolucionais (CNNs) para maior desempenho em visão computacional.  
-- Exploração de diferentes otimizadores e hiperparâmetros.  
-- Aplicações em datasets mais complexos e variados.  
-
-Assim, este projeto cumpre seu papel como um **primeiro passo sólido** no aprendizado de redes neurais, oferecendo uma visão clara e prática de como modelos de machine learning podem ser construídos e aplicados em problemas reais.
