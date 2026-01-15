@@ -138,11 +138,8 @@ modelo.to(device)
 Projeto desenvolvido como estudo prático de **Redes Neurais com PyTorch**.  
 ```
 
----
 
----
-
-📝 Conclusão
+## 📝 Conclusão
 Este estudo demonstrou, de forma prática e estruturada, como construir uma rede neural totalmente conectada (MLP) utilizando PyTorch para resolver o desafio clássico de classificação de dígitos manuscritos com o dataset MNIST.
 A implementação percorreu todas as etapas fundamentais do ciclo de aprendizado de máquina:
 - Pré-processamento dos dados, garantindo que as imagens fossem convertidas em tensores adequados para o modelo.
