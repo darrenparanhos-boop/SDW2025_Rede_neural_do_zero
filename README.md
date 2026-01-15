@@ -142,15 +142,24 @@ Projeto desenvolvido como estudo prático de **Redes Neurais com PyTorch**.
 ## 📝 Conclusão
 Este estudo demonstrou, de forma prática e estruturada, como construir uma rede neural totalmente conectada (MLP) utilizando PyTorch para resolver o desafio clássico de classificação de dígitos manuscritos com o dataset MNIST.
 A implementação percorreu todas as etapas fundamentais do ciclo de aprendizado de máquina:
+
 • 	Pré-processamento dos dados, garantindo que as imagens fossem convertidas em tensores adequados para o modelo.
+
 • 	Definição da arquitetura, com camadas lineares e funções de ativação que refletem os princípios básicos das redes neurais.
+
 • 	Treinamento supervisionado, utilizando gradiente descendente estocástico para otimização dos parâmetros.
+
 • 	Validação e avaliação, assegurando que o modelo fosse testado em dados não vistos e medindo sua capacidade de generalização.
+
 Os resultados obtidos confirmam que, mesmo com uma arquitetura simples, é possível alcançar alta precisão (92–95%), evidenciando o potencial das redes neurais para tarefas de classificação.
 Mais do que apenas treinar um modelo, este estudo reforça conceitos essenciais de aprendizado profundo, servindo como base sólida para avanços futuros, tais como:
+
 • 	Implementação de redes convolucionais (CNNs) para maior desempenho em visão computacional.
+
 • 	Exploração de diferentes otimizadores e hiperparâmetros para melhorar a eficiência do treinamento.
+
 • 	Aplicações em datasets mais complexos e variados, ampliando o escopo e a robustez do modelo.
+
 Em síntese, este projeto cumpre seu papel como um primeiro passo consistente na jornada de aprendizado em redes neurais, oferecendo uma visão clara e prática de como modelos de machine learning podem ser construídos, treinados e aplicados em problemas reais.
 Ele não apenas consolida os fundamentos teóricos, mas também abre caminho para experimentações mais avançadas e aplicações em cenários de maior complexidade.
 
