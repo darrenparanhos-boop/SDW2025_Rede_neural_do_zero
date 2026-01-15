@@ -1,6 +1,3 @@
-
-
-```markdown
 # 🧠 Rede Neural do Zero com PyTorch
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/10Jb6rMh27h-tgDsE5Yx6iBM3oOMjsvlO?usp=sharing)
@@ -11,29 +8,27 @@ O estudo foi realizado no **Google Colab** e documentado no notebook [`Rede_neur
 ---
 
 ## 📌 Objetivos
-- Construir uma rede neural simples para classificação de dígitos manuscritos (0–9).  
-- Entender o fluxo completo: **pré-processamento → modelagem → treinamento → validação**.  
+- Implementar uma rede neural simples para classificação de dígitos manuscritos.  
 - Explorar conceitos fundamentais de **camadas lineares**, **funções de ativação** e **otimização**.  
+- Demonstrar o fluxo completo: **pré-processamento → modelagem → treinamento → validação**.  
 
 ---
 
-## 📚 Bibliotecas Utilizadas
-- `numpy` → manipulação de arrays numéricos  
-- `torch` → construção e treinamento da rede neural  
-- `torch.nn.functional` → funções de ativação e perda  
-- `torchvision` → acesso ao dataset MNIST e transformações  
-- `matplotlib.pyplot` → visualização de imagens  
-- `time` → cálculo do tempo de execução  
-- `torch.nn`, `torch.optim` → definição de camadas e otimizadores  
+## 📚 Tecnologias Utilizadas
+- **Python 3.14
+- **PyTorch**
+- **Torchvision**
+- **Matplotlib**
+- **NumPy**
 
 ---
 
 ## 📊 Dataset MNIST
-O **MNIST** é um dataset clássico de visão computacional, composto por imagens de dígitos manuscritos em escala de cinza:
+O dataset **MNIST** contém imagens de dígitos manuscritos (0–9) em escala de cinza:
 
 - **Treino:** 60.000 imagens  
 - **Teste/Validação:** 10.000 imagens  
-- **Dimensão:** 28x28 pixels (convertidas em tensores)  
+- **Dimensão:** 28x28 pixels  
 
 Exemplo de visualização de uma imagem:
 
