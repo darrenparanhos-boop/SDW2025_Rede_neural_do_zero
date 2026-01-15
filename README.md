@@ -153,3 +153,5 @@ Mais do que apenas treinar um modelo, este estudo reforça conceitos essenciais 
 • 	Aplicações em datasets mais complexos e variados, ampliando o escopo e a robustez do modelo.
 Em síntese, este projeto cumpre seu papel como um primeiro passo consistente na jornada de aprendizado em redes neurais, oferecendo uma visão clara e prática de como modelos de machine learning podem ser construídos, treinados e aplicados em problemas reais.
 Ele não apenas consolida os fundamentos teóricos, mas também abre caminho para experimentações mais avançadas e aplicações em cenários de maior complexidade.
+
+
