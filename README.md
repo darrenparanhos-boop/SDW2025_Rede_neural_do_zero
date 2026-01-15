@@ -15,7 +15,7 @@ O estudo foi realizado no **Google Colab** e documentado no notebook [`Rede_neur
 ---
 
 ## 📚 Tecnologias Utilizadas
-- **Python 3.14
+- **Python 3.14**
 - **PyTorch**
 - **Torchvision**
 - **Matplotlib**
